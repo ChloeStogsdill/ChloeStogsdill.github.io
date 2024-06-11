@@ -15,7 +15,7 @@ body {
 }
 
 #logo:hover {
-    background-color: #ede9da; 
+    background-color: #3f3f3f; 
 }
 
 ul {
@@ -23,7 +23,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ede9da;
+    background-color: #3f3f3f;
     position: fixed;
     top: 0;
     width: 100%;
@@ -35,7 +35,7 @@ li {
   
 li a {
     display: block;
-    color: #3f3f3f;
+    color: #fff;
     text-align: center;
     padding: 14px 30px;
     text-decoration: none;
@@ -49,32 +49,8 @@ li a:hover:not(.active){
 }
 
 .active {
+    /* background-color: #e9c4c4; */
     background-color: #607361;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-}
-
-.column {
-    float: left;
-    width: 31%;
-    padding: 10px;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-h2 {
-    padding-top: 75px;
-    color: #c6ecc7;
-    text-align: center;;
-    font-size: 1.5rem;
-}
-
-p {
-    color: #ede9da;
-    text-align: center;
-    font-size: 1rem;
 }
