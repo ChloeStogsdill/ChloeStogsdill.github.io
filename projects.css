@@ -10,6 +10,25 @@ h1 {
     font-size: 2rem;
 }
 
+.column {
+    float: left;
+    width: 31%;
+    padding: 15px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2 {
+    color: white;
+    text-align: center;;
+    font-size: 1.5rem;
+    
+}
+
 /* NavBar */
 ul {
     list-style-type: none;
@@ -41,6 +60,5 @@ li a:hover:not(.active) {
 }
 
 .active {
-    /* background-color: #e9c4c4; */
     background-color: #8f8f8f;
 }
